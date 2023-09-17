@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/images/dolphin.webp" alt="" id="image1">
+        <img src="assets/images/image2.webp" alt="" id="image2">
+        <img src="assets/images/image3.jpeg" alt="" id="image3">
+        <img src="assets/images/sun.jpeg" alt="" id="image4">
+        <img src="assets/images/background2.jpg" alt="" id="image5">
+        <!-- <img src="assets/images/image1.jpeg" alt=""> -->
+    </div>
+    <script>
+        let image1 = document.querySelector("img");
+        image1.addEventListener('mouseover', function() {
+            image1.style.width = "400px";
+            image1.style.cursor = "pointer";
+        
+        });
+        image1.addEventListener('mouseout', function() {
+            image1.style.width="50px";
+        });
+        let image2 = document.getElementById("image2");
+        image2.addEventListener('mouseover', function() {
+            image2.style.width = "400px";
+            image2.style.cursor = "pointer";
+        
+        });
+        image2.addEventListener('mouseout', function() {
+            image2.style.width="50px";
+        });
+        let image3 = document.getElementById("image3");
+        image3.addEventListener('mouseover', function() {
+            image3.style.width = "400px";
+            image3.style.cursor = "pointer";
+        
+        });
+        image3.addEventListener('mouseout', function() {
+            image3.style.width="50px";
+        });
+        let image4 = document.getElementById("image4");
+        image4.addEventListener('mouseover', function() {
+            image4.style.width = "400px";
+            image4.style.cursor = "pointer";
+        
+        });
+        image4.addEventListener('mouseout', function() {
+            image4.style.width="50px";
+        });
+        let image5 = document.getElementById("image5");
+        image5.addEventListener('mouseover', function() {
+            image5.style.width = "400px";
+            image5.style.cursor = "pointer";
+        
+        });
+        image5.addEventListener('mouseout', function() {
+            image5.style.width="50px";
+        });
+    </script>
+</body>
+</html>
